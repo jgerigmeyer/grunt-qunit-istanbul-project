@@ -3,7 +3,16 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         qunit: {
-            all: ['tests/*.html']
+            all: ['tests/*.html'],
+			options: {
+				coverage: {
+					baseUrl: '.',
+					src: ['src/*.js'],
+					instrumentedFiles: './temp/',
+					htmlReport: 'report/coverage',
+					coberturaReport: 'report/'
+				}
+			}
         },
 
         qunit_junit: {
@@ -13,7 +22,7 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-qunit');
+    grunt.loadNpmTasks('grunt-qunit-istanbul');
     grunt.loadNpmTasks('grunt-qunit-junit')
     grunt.registerTask('junit', ['qunit_junit', 'qunit']);
     grunt.registerTask('default', ['qunit'])
