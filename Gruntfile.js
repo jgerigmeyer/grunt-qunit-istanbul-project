@@ -6,7 +6,6 @@ module.exports = function (grunt) {
             all: ['tests/*.html'],
 			options: {
 				coverage: {
-					baseUrl: '.',
 					src: ['src/*.js'],
 					instrumentedFiles: './temp/',
 					htmlReport: 'report/coverage',
