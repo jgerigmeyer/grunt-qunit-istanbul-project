@@ -1,0 +1,36 @@
+[4mRunning "qunit:all" (qunit) task[24m
+[D] [35mTask source: D:\Github\grunt-qunit-istanbul-project\node_modules\grunt-qunit-istanbul\tasks\qunit.js[39m
+Testing tests/index.html [D] [35m["D:\\Github\\grunt-qunit-istanbul-project\\node_modules\\grunt-qunit-istanbul\\node_modules\\grunt-lib-phantomjs-istanbul\\phantomjs\\main.js","C:\\Users\\santa\\AppData\\Local\\Temp/1391062092265.9224","tests/index.html","{\"timeout\":5000,\"inject\":\"D:\\\\Github\\\\grunt-qunit-istanbul-project\\\\node_modules\\\\grunt-qunit-istanbul\\\\phantomjs\\\\bridge.js\",\"urls\":[],\"force\":false,\"coverage\":{\"src\":[\"src/*.js\"],\"instrumentedFiles\":\"./temp/\",\"htmlReport\":\"report/coverage\",\"coberturaReport\":\"report/\",\"include\":[\"src/src.js\"]},\"transport\":{\"instrumentedFiles\":\"./temp/\",\"coverage\":\"D:\\\\Github\\\\grunt-qunit-istanbul-project\\\\node_modules\\\\grunt-qunit-istanbul\\\\temp\\\\coverage.tmp\"}}"][39m
+[D] [35m[35m["phantomjs","private","version",{"major":1,"minor":9,"patch":7}][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"*/*"}],"id":1,"method":"GET","time":"2014-01-30T06:08:12.681Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/tests/index.html"}][39m[39m
+[D] [35m[35m["phantomjs","onUrlChanged","file:///D:/Github/grunt-qunit-istanbul-project/tests/index.html"][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"text/css,*/*;q=0.1"}],"id":2,"method":"GET","time":"2014-01-30T06:08:12.684Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/qunit/qunit/qunit.css"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"*/*"}],"id":3,"method":"GET","time":"2014-01-30T06:08:12.685Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/jquery/jquery.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"*/*"}],"id":4,"method":"GET","time":"2014-01-30T06:08:12.685Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/src/src.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"*/*"}],"id":5,"method":"GET","time":"2014-01-30T06:08:12.685Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/qunit/qunit/qunit.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceRequested",{"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"},{"name":"Accept","value":"*/*"}],"id":6,"method":"GET","time":"2014-01-30T06:08:12.686Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/tests/test.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Wed, 29 Jan 2014 19:22:12 GMT"},{"name":"Content-Length","value":"995"}],"id":1,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.686Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/tests/index.html"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Wed, 29 Jan 2014 19:14:43 GMT"},{"name":"Content-Length","value":"4656"}],"id":2,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.686Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/qunit/qunit/qunit.css"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Wed, 29 Jan 2014 19:14:43 GMT"},{"name":"Content-Length","value":"244963"}],"id":3,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.687Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/jquery/jquery.js"}][39m[39m
+[D] [35m[35m["phantomjs","onInitialized"][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Thu, 30 Jan 2014 07:06:52 GMT"},{"name":"Content-Length","value":"40"}],"id":4,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.701Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/src/src.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Wed, 29 Jan 2014 19:14:43 GMT"},{"name":"Content-Length","value":"58475"}],"id":5,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.702Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/bower_components/qunit/qunit/qunit.js"}][39m[39m
+[D] [35m[35m["phantomjs","onResourceReceived",{"contentType":null,"headers":[{"name":"Last-Modified","value":"Wed, 29 Jan 2014 19:17:50 GMT"},{"name":"Content-Length","value":"88"}],"id":6,"redirectURL":null,"stage":"end","status":null,"statusText":null,"time":"2014-01-30T06:08:12.705Z","url":"file:///D:/Github/grunt-qunit-istanbul-project/tests/test.js"}][39m[39m
+[D] [35m[35m["phantomjs","inject","D:\\Github\\grunt-qunit-istanbul-project\\node_modules\\grunt-qunit-istanbul\\phantomjs\\bridge.js"][39m[39m
+[D] [35m[35m["phantomjs","qunit.begin"][39m[39m
+[D] [35m[35m["phantomjs","onLoadFinished","success"][39m[39m
+[D] [35m[35m["phantomjs","qunit.moduleStart","Basic Tests"][39m[39m
+[D] [35m[35m["phantomjs","qunit.testStart","sum works"][39m[39m
+[D] [35m[35m["phantomjs","qunit.log",true,"2","2",null,null][39m[39m
+[D] [35m[35m["phantomjs","qunit.testDone","sum works",0,1,1][39m[39m
+.[D] [35m[35m["phantomjs","qunit.moduleDone","Basic Tests",0,1,1][39m[39m
+[D] [35m[35m["phantomjs","qunit.done",0,1,1,17][39m[39m
+[32mOK[39m
+[32m>> [39m1 assertions passed (17ms)
+[32m>> [39mCoverage:
+[32m>> [39m-  Lines: 100%
+[32m>> [39m-  Statements: 100%
+[32m>> [39m-  Functions: 100%
+[32m>> [39m-  Branches: 100%
+
+[32mDone, without errors.[39m
